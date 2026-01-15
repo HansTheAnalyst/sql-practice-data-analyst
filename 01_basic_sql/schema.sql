@@ -1,18 +1,7 @@
-CREATE TABLE Employees (
-    EmployeeID INT PRIMARY KEY,
-    FirstName VARCHAR(50),
-    LastName VARCHAR(50),
-    DepartmentID INT,
-    Salary INT
-);
-
-CREATE TABLE Departments (
-    DepartmentID INT PRIMARY KEY,
-    DepartmentName VARCHAR(50)
-);
-
-CREATE TABLE SalariesHistory (
-    EmployeeID INT,
-    Year INT,
-    Salary INT
-);
+CREATE TABLE Employees 
+    (EmployeeID int, 
+    FirstName varchar(50),
+    LastName varchar(50),
+    Department varchar(50),
+    Age int,
+    Salary int)
